@@ -17,5 +17,9 @@ symbol = Unique
 // console.log(typeof fname)
 // console.log(typeof age)
 // console.log(typeof isGood)
+
 console.log(typeof bankbal)       // object
 console.log(typeof gf)
+
+// console.log(typeof null)             //  => OBJECT
+// console.log(typeof undefined)       //  => UNDEFINED
