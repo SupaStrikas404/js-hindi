@@ -31,8 +31,31 @@ let myDet={
 const myFunc = function() {
     console.log("Hi this is Kabir.");
 }
-console.log(myFunc);
+// console.log(myFunc);
 // console.log(typeof myFunc);
 // console.log(typeof myDet);
 // console.log(typeof frnd);
-// console.log(typeof bigNumber);
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap(Non Primitive)
+
+let myname="kabir" 
+let fname=myname
+fname="Abhishek"
+
+// console.log(myname);
+// console.log(fname);
+
+let user = {
+    email:"kabir@mail.com",
+    upi:"kabir@upi",
+    id:1234
+}
+let user1=user
+user1.email="Abhishek@iem.com"
+
+console.log(user);
+console.log(user1);
