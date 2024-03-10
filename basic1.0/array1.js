@@ -23,6 +23,9 @@ const arr = new Array(65, 56, 22, 45, 90, 69)
 console.log(myArr);                            // Datatype => Object
 // console.log(newArr);                       // Datatype => String
 
+
+
+
 // Slice, Splice
 
 console.log("A ", myArr);
