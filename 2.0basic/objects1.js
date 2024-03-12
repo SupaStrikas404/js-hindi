@@ -24,10 +24,21 @@ const user = {
 user.email = "abhishek2002@gmail.com"
 // console.log(user.email);
 
-Object.freeze(user)          // Use to lock the element in the Object.
+// Object.freeze(user)          // Use to lock the element in the Object.
 
 // user.email="kabir@outlook.com"
 // console.log(user);
 
 // console.log(user[mySym]);
 // console.log(typeof user[mySym]);
+
+user.greetmsg = function () {
+    console.log("Good morning dear JS user");
+}
+
+user.greeting = function () {
+    console.log(`Hello ${this.fname} Good morning, have a nice day!`);
+}
+
+// console.log(user.greetmsg);
+console.log(user.greeting());
