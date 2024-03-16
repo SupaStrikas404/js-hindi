@@ -40,5 +40,5 @@ user.greeting = function () {
     console.log(`Hello ${this.fname} Good morning, have a nice day!`);
 }
 
-// console.log(user.greetmsg);
+console.log(user.greetmsg());
 console.log(user.greeting());
