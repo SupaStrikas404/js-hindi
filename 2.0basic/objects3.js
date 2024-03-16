@@ -18,3 +18,5 @@ console.log(instructor);
     "isStudent" : true
 }
 */
+
+// JSON Format use to restructured API in different format
