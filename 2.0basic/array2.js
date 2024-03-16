@@ -1,4 +1,4 @@
-const myName = ["Ram", "sam", "Krish", "Sappy"]
+ const myName = ["Ram", "sam", "Krish", "Sappy"]
 const car = ["AUDI", "TATA", "BMW", "TOYOTA"]
 
 // myName.push(car)          // Push -> Push the element inside the existing array.
