@@ -10,7 +10,7 @@ if (true) {
     let a = 100
     var b = 300
     const c = 200
-    console.log("Inner value:", a);
+    // console.log("Inner value:", a);
 }
 
 // console.log(a);
@@ -19,3 +19,25 @@ if (true) {
 
 
 // Nested Scope 
+
+function bigger() {
+    const myName = "Kabir"
+    function smaller() {
+        const website = "leetcode"
+        console.log(myName);       // Children function can access Parent function.
+    }
+    console.log(website);      // Parent function can not access Children function.
+    smaller()
+}
+// bigger()
+
+
+if (true) {
+    const userName = "Kabir"
+    if (userName == "Kabir") {
+        website = " leetcode"
+        // console.log(userName + website);
+    }
+    // console.log(website);
+}
+// console.log(userName);
