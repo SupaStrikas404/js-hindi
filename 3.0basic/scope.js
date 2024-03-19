@@ -41,3 +41,15 @@ if (true) {
     // console.log(website);
 }
 // console.log(userName);
+
+//  ++++++++++++++++++++++++++Interesting++++++++++++++++++++++++++++++++++++++++++
+// Normal function
+console.log(addone(5));
+function addone(num) {
+    return num + 1
+}
+// (function with expression) also, known as hoisting
+console.log(addtwo(5));
+const addtwo = function (num) {
+    return num + 2
+}
