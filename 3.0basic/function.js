@@ -52,6 +52,8 @@ function userDetails(anyUser) {
     console.log(`This is ${anyUser.userName}, from ${anyUser.location}. His active status is ${anyUser.isActive} and age is ${anyUser.age}.`);
 }
 // userDetails(user)
+
+//Directly passing Object
 userDetails({
     userName: "Ram",
     location: "Ayodhya",
@@ -59,7 +61,7 @@ userDetails({
     age: Infinity
 })
 
-const myArr = [100, 200, 300, 400, 500]
+// const myArr = [100, 200, 300, 400, 500]
 
 function secondValue(anyArr) {
     return anyArr[1]
