@@ -1,2 +1,2 @@
-# js-hindi
-A code repo for Java Script series of basic learning.
+# js-main
+A code repo for learning Java Script fundamentally.
