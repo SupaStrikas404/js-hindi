@@ -1,0 +1,8 @@
+DOM selector 
+
+.innerText = It shows the only text content that are visible in HTML page.
+.textContent = It shows the complete text content which we hide using "Display" and others property.
+.innerHTML = It gives inner HTML value.
+
+
+// 33.50
