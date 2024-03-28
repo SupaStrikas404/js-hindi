@@ -18,3 +18,4 @@ title.style.backgroundColor / title.style.padding / title.style.borderRadius : U
 document.querySelector('selector_name') : This is return first element that matches the selector.
 **For id selector use "#selector_name"
 **For Class selector use ".selector_name"
+document.querySelectorAll('selector_name') : This is return all elements that matches the selector.
