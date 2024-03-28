@@ -1,8 +1,15 @@
 DOM selector 
 
+document : It is use to select complete Document.
+document.getElementById() : Use to target the element by ID and do changes on it.
+document.getElementById('title').id / document.getElementById('title').className : Use to get the value of this attribute
+document.getElementById('title').setAttribute('class', 'test') : Use for set the attribute name.
+const title = document.getElementById('title') : Storing inside the variable.
+
+
+title.style.backgroundColor / title.style.padding / title.style.borderRadius : Use for adding style.
+
+
 .innerText = It shows the only text content that are visible in HTML page.
 .textContent = It shows the complete text content which we hide using "Display" and others property.
 .innerHTML = It gives inner HTML value.
-
-
-// 33.50
