@@ -19,3 +19,7 @@ document.querySelector('selector_name') : This is return first element that matc
 **For id selector use "#selector_name"
 **For Class selector use ".selector_name"
 document.querySelectorAll('selector_name') : This is return all elements that matches the selector.
+
+
+To use Map function on the NodeList -> Convert it
+***To Convert HTMLCollection: Array.from(Var_Name)
