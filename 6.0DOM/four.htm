@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script Advance | DOM</title>
+</head>
+
+<body style="background-color: #212121; color: #fff;">
+    <ul class="language">
+        <li>JavaScript</li>
+    </ul>
+</body>
+<script>
+    // Add
+    function addLanguage(languageName) {
+        const list = document.createElement('li')
+        list.innerHTML = `${languageName}`
+        document.querySelector('.language').appendChild(list)
+    }
+    addLanguage("Python")
+
+    function addOptimize(langName) {
+        const list = document.createElement('li')
+        list.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(list)
+    }
+    addOptimize("Java")
+    addOptimize("Rust")
+
+    // Edit 
+    const secElement = document.querySelector("li:nth-child(2)")
+    // secElement.innerHTML = "GoLang"
+    const newli = document.createElement('li')
+    newli.appendChild(document.createTextNode("GoLang"))
+    secElement.replaceWith(newli)
+
+    // Remove 
+    const third=document.querySelector("li:nth-child(3)")
+    third.remove()
+</script>
+
+</html>
